@@ -24,6 +24,7 @@ img {
   display: block;
 }
 
+/*
 h4 {
   text-align: center;
   padding-right: 50px;
@@ -34,6 +35,7 @@ h4 {
   right: 60px;
   top: 190px;
 }
+*/
 
 #zero {
   text-align: center;
@@ -43,6 +45,8 @@ h4 {
   bottom: 20px;
 }
 
+/*
+
 #one {
   text-align: center;
   letter-spacing: 0.5px;
@@ -51,6 +55,8 @@ h4 {
   position: relative;
   right: 85px;
 }
+
+*/
 
 #two {
   text-align: left; /* It will align your text */
