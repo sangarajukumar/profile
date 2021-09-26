@@ -36,6 +36,7 @@ h4 {
   top: 190px;
 }
 */
+/*
 
 #zero {
   text-align: center;
@@ -44,6 +45,7 @@ h4 {
   left: 300px;
   bottom: 20px;
 }
+*/
 
 /*
 
@@ -58,8 +60,9 @@ h4 {
 
 */
 
+/*
 #two {
-  text-align: left; /* It will align your text */
+  text-align: left; 
   font-family: Georgia;
   letter-spacing: 1px;
   text-size-adjust: 10%;
@@ -68,6 +71,8 @@ h4 {
   width: fit-content;
   padding-inline-start: 50%;
 }
+
+*/
 
 #three {
   font-family: serif;
@@ -211,8 +216,28 @@ h4 {
   .logo {
     margin: 0 0 0 0.3rem;
   }
-  .nav-item {
-    flex: 1 0 100%;
-    text-align: center;
-  }
+}
+
+#one {
+  text-align: left;
+  font-family: Georgia;
+  letter-spacing: 1px;
+  text-size-adjust: 10%;
+  padding-inline-start: 25%;
+  padding-right: 10px;
+  padding-inline-end: 20%;
+}
+
+#two {
+  font-family: Georgia;
+  letter-spacing: 1px;
+  text-size-adjust: 10%;
+  padding-inline-start: 25%;
+  padding-right: 10px;
+  padding-inline-end: 20%;
+  padding-bottom: 20%;
+}
+
+#zero {
+  padding-left: 8%;
 }
