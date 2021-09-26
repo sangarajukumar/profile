@@ -201,7 +201,7 @@ h4 {
 @media (min-device-width: 320px) {
   .header-nav,
   .header-nav1 {
-    justify-content: space-between center;
+    justify-content: space-between;
     padding: 1rem; /* little bit padding on the top and the bottom but not on the left and right */
     margin: 1rem auto 2rem auto; /* there's a margin above */
   }
@@ -210,5 +210,9 @@ h4 {
   }
   .logo {
     margin: 0 0 0 0.3rem;
+  }
+  .nav-item {
+    flex: 1 0 100%;
+    text-align: center;
   }
 }
