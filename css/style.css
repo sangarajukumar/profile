@@ -164,7 +164,8 @@ h4 {
 
 @media (min-width: 600px) {
   /* everything below 600px will gave the styles above us. so, that's the mobile first */
-  .header-nav {
+  .header-nav,
+  .header-nav1 {
     line-height: 1.5rem; /* we will increase the line height. */
   }
 }
@@ -183,7 +184,8 @@ h4 {
 
 @media (min-width: 900px) {
   /* Now, I am targeting anything over 900 pixels */
-  .header-nav {
+  .header-nav,
+  .header-nav1 {
     justify-content: space-between;
     padding: 1rem; /* little bit padding on the top and the bottom but not on the left and right */
     margin: 1rem auto 2rem auto; /* there's a margin above */
@@ -199,6 +201,14 @@ h4 {
 @media (min-device-width: 320px) {
   .header-nav,
   .header-nav1 {
-    line-height: 1.5rem;
+    justify-content: space-between;
+    padding: 1rem; /* little bit padding on the top and the bottom but not on the left and right */
+    margin: 1rem auto 2rem auto; /* there's a margin above */
+  }
+  .nav-menu {
+    width: auto;
+  }
+  .logo {
+    margin: 0 0 0 0.3rem;
   }
 }
