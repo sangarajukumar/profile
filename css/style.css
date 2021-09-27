@@ -78,7 +78,7 @@ h4 {
   font-family: serif;
   letter-spacing: 1px;
   text-align: right;
-  padding-top: 400px;
+  padding-top: 100px;
 }
 
 /* Here we are going to style nav bar */
@@ -218,9 +218,14 @@ h4 {
   }
 }
 
+#zero {
+  padding-left: 8%;
+}
+
 #one {
   text-align: left;
   font-family: Georgia;
+  font-size: 16.5px;
   letter-spacing: 1px;
   text-size-adjust: 10%;
   padding-inline-start: 25%;
@@ -230,14 +235,40 @@ h4 {
 
 #two {
   font-family: Georgia;
+  font-size: large;
   letter-spacing: 1px;
   text-size-adjust: 10%;
   padding-inline-start: 25%;
   padding-right: 10px;
   padding-inline-end: 20%;
-  padding-bottom: 20%;
 }
 
-#zero {
-  padding-left: 8%;
+#four {
+  font-family: Georgia;
+  font-size: large;
+  letter-spacing: 1px;
+  text-size-adjust: 10%;
+  padding-inline-start: 25%;
+  padding-right: 10px;
+  padding-inline-end: 20%;
+}
+
+#five {
+  font-family: Georgia;
+  font-size: large;
+  letter-spacing: 1px;
+  text-size-adjust: 10%;
+  padding-inline-start: 25%;
+  padding-right: 10px;
+  padding-inline-end: 20%;
+}
+
+#six {
+  font-family: Georgia;
+  font-size: large;
+  letter-spacing: 1px;
+  text-size-adjust: 10%;
+  padding-inline-start: 25%;
+  padding-right: 10px;
+  padding-inline-end: 20%;
 }
