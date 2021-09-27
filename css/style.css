@@ -274,7 +274,7 @@ h4 {
 }
 
 .figure {
-  display: inline-block;
+  display: flex;
   border: 2px dotted gray;
   margin: 30px; /* adjust as needed */
 }
@@ -283,5 +283,6 @@ figure img {
 }
 figure figcaption {
   text-align: center;
-  font-size: small;
+  font-size: medium;
+  font-style: italic;
 }
