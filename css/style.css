@@ -77,7 +77,7 @@ h4 {
 #three {
   font-family: serif;
   letter-spacing: 1px;
-  text-align: right;
+  padding-left: 1120px;
   padding-top: 100px;
 }
 
@@ -164,6 +164,10 @@ h4 {
   transform: scale(0.9);
 }
 
+img.image {
+  margin-top: -77px;
+}
+
 /* let's add some media queries. so, this work on different devices.
    The first media query we will add is for tablets to add a media queries. we type @media */
 
@@ -208,13 +212,13 @@ h4 {
   .header-nav1 {
     justify-content: space-between;
     padding: 1rem; /* little bit padding on the top and the bottom but not on the left and right */
-    margin: 1rem auto 2rem auto; /* there's a margin above */
+    /*margin: 1rem auto 2rem auto; */ /* there's a margin above */
   }
   .nav-menu {
     width: auto;
   }
   .logo {
-    margin: 0 0 0 0.3rem;
+  /*  margin: 0 0 0 0.3rem;*/
   }
 }
 
@@ -285,4 +289,47 @@ figure figcaption {
   text-align: center;
   font-size: medium;
   font-style: italic;
+}
+.container {
+  margin-top: 40px;
+}
+@media only screen and (max-width: 767px) {
+  #three {
+    padding-left: 0px;
+    text-align: center;
+    
+}
+img.image {
+  margin-top: -50px;
+  margin-left: 75px;
+  /* text-align: center; */
+}
+iframe.map {
+  width: 100%;
+}
+}
+
+@media screen and (min-device-width: 820px) and (max-device-width: 1180px) { 
+  img.image {
+    margin-top: 0;
+    margin-left: 0px;
+    /* text-align: center; */
+  }
+  #three {
+    padding-left: 0px;
+    text-align: center;
+    
+}
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) { 
+  img.image {
+    margin-top: 0;
+    margin-left: 0px;
+    /* text-align: center; */
+  }
+  #three {
+    padding-left: 0px;
+    text-align: center;
+    
+}
 }
